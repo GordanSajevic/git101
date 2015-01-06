@@ -1,0 +1,9 @@
+1. Da li je moguće povući stvari sa forkanog repositorya u naš novi repository i kako?
+
+Kreiramo novi repository, zatim ga dodamo pomoću naredbe  git remote add upstream 'URL'.
+Zatim koristimo naredbu git pull origin master.
+
+2.  Objasniti kako git stash funkcioniše
+
+Git stash je naredba koju koristimo da pređemo na drugi branch, a da ne želimo commitati promjene.
+Stash pramti naše nedovršene promjene na kojima možemo kasnije nastaviti raditi.
